@@ -1,3 +1,5 @@
 import { defineNuxtConfig } from "nuxt";
 
-export default defineNuxtConfig({});
+export default defineNuxtConfig({
+	typescript: { strict: true }
+});
